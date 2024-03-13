@@ -1,0 +1,77 @@
+/* Mengatur warna latar belakang halaman */
+body {
+    background: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+}
+
+/* Mengatur posisi dan ukuran dari kotak form */
+.login-page {
+    width: 560px;
+    padding: 8% 0 0;
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* Mengatur tampilan dari elemen-elemen di dalam form */
+.form {
+    position: relative;
+    z-index: 1;
+    background: #f4f4f9;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 12px;
+}
+
+.gambar img {
+    max-width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Jarak antara gambar dan teks */
+}
+/* Mengatur tampilan dari judul dan paragraf */
+.form h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.form p {
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    margin: 0 0 12px;
+}
+
+/* Mengatur tampilan dari input email dan password */
+.form input {
+    font-family: Arial, sans-serif;
+    outline: 0;
+    background: #dfdfdf;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Mengatur tampilan dari button login */
+.form button {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #000000;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Mengatur tampilan dari button login saat di-hover */
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #2f4550;
+}
+
+/* Mengatur tampilan dari link basic version */
